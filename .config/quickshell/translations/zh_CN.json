@@ -369,5 +369,14 @@
   "Command rejected by user": "用户拒绝了命令",
   "Invalid tool. Supported tools:\n- %1": "无效工具。支持的工具：\n- %1",
   "Keep right sidebar loaded": "保持右侧边栏加载",
-  "Reject": "拒绝"
+  "Reject": "拒绝",
+  "Timer": "计时器",
+  "Pomodoro": "番茄钟",
+  "Stopwatch": "秒表",
+  "Focus": "专注",
+  "Start": "开始",
+  "Reset": "重置",
+  "Lap": "记录",
+  "Pause": "暂停",
+  "Resume": "继续"
 }
