@@ -27,12 +27,32 @@ StyledPopup {
             }
 
             StyledText {
-                text: "Battery"
+                text: Translation.tr("Battery")
                 font {
                     weight: Font.Medium
                     pixelSize: Appearance.font.pixelSize.normal
                 }
                 color: Appearance.colors.colOnSurfaceVariant
+            }
+        }
+
+        RowLayout {
+            spacing: 5
+            Layout.fillWidth: true
+            MaterialSymbol {
+                text: "thermostat"; 
+                color: Appearance.m3colors.m3onSecondaryContainer
+                iconSize: Appearance.font.pixelSize.large
+            }
+            StyledText { 
+                text: Translation.tr("Temperature:"); 
+                color: Appearance.colors.colOnSurfaceVariant 
+            }
+            StyledText { 
+                Layout.fillWidth: true; 
+                horizontalAlignment: Text.AlignRight; 
+                color: Appearance.colors.colOnSurfaceVariant; 
+                text: `${Battery.temperature}°C` 
             }
         }
 

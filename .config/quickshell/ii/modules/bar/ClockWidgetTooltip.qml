@@ -98,6 +98,7 @@ StyledPopup {
             }
 
             StyledText {
+                topPadding: 4
                 Layout.fillWidth: true
                 horizontalAlignment: Text.AlignLeft
                 wrapMode: Text.Wrap
